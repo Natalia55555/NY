@@ -1,0 +1,23 @@
+.bg-header{
+    position: absolute;
+    /* height: 50px; */
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #3caa3c;
+    
+}
+.bg-header p{
+    color: #fff;
+    font-size: 30px; 
+    
+}
+.header-bottom{
+    background: url(./img/57582.png)repeat-x;
+    background-size: 25px;
+    width: 100%;
+    display:flex;
+    background-position-y: bottom;
+    justify-content: center;
+
+}

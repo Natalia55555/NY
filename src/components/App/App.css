@@ -1,0 +1,18 @@
+.Bg-header{
+    position: fixed;
+    /* height: 50px; */
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #3caa3c;
+    display:flex;
+    justify-content: center;
+}
+.Bg-header p{
+    color: #fff;
+    font-size: 40px; 
+    font-family:  'Comfortaa', sans-serif;
+}
+/* .Main-content{
+   background: url(img/526775-PJPU61-776.jpg); 
+} */
