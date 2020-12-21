@@ -1,0 +1,54 @@
+.main_block{
+width: 100%;
+height: 100%;  
+}
+.left_block{
+    background-color: #fff8ea;
+    height: 550px;
+    max-height: 500px;
+    width: 55%;
+    left: 40%; 
+    top: 25%;
+    position: relative;
+    z-index: 1;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px; 
+    animation-fill-mode: forwards; 
+    opacity:0; 
+    transition: 1s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards; 
+    animation-delay: 1s;
+    border:dashed 5px #0d29d7; 
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 53%);
+}
+.right_block{
+    position: relative;
+    z-index: 1;
+    animation-fill-mode: forwards; 
+    opacity:0; 
+    transition: 1s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards; 
+    animation-delay: 2s; 
+    bottom: 20%;
+    padding-left: 70px;
+    
+}
+.right_block p{
+    color: white;
+    font-size: 22px;
+    font-weight: 700; 
+}
+@keyframes show {
+    from {
+    opacity: 0;
+}
+    to {
+    opacity: 1;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .right_block{
+        bottom: 40%;
+    }
+}

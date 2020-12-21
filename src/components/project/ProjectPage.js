@@ -2,12 +2,13 @@ import Header2 from '../Header2/Header2';
 import React from 'react';
 import { CSSTransitionGroup } from 'react-transition-group';
 import '../Content/Content.css';
-
+import InformBlock from '../InformBlock/InformBlock';
 
 function ProjectPage() {
 
 
   return (
+    
     <CSSTransitionGroup
     transitionName="worksTransition"
     transitionAppear={true}
@@ -16,9 +17,10 @@ function ProjectPage() {
     transitionLeave={false}> 
   <div>
   <Header2 /> 
-    <div className="contentproject">     
-    </div>  
-    
+    <div className="contentproject"> 
+      <InformBlock/>  
+    </div> 
+       
   </div>
   </CSSTransitionGroup>
   );

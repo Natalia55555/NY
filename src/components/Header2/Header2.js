@@ -12,7 +12,7 @@ function Header2(props) {
         </div>
           <Link className="btn" to="/">НАЗАД</Link>
         </div>    
-        <div class="snowContainer"><div id="snow"></div></div>  
+        <div className="snowContainer"><div id="snow"></div></div>  
    </div>
    
   );

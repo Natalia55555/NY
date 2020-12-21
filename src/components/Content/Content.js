@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom' ;
 import ProjectPage from '../project/ProjectPage';
 import Home from '../Home/Home';
 
-
 function Content() {
   return (         
     

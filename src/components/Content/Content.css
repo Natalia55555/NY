@@ -31,24 +31,6 @@
 	font-family:  'Comfortaa', sans-serif;
 
 }
-.btn2{
-	background-color:#ff3b3c;
-	color: #fff;
-	border-radius: 20px;
-	padding: 10px 50px 10px 50px;
-	position: absolute;
-    top: 25%;
-	/* left: calc(50% - 90px); */
-	right: 10%;
-	font-size: 20px;
-	text-decoration: none;
-	z-index: 999999;
-	font-weight: 700;
-	border: none;
-	cursor: pointer;
-	font-family:  'Comfortaa', sans-serif;
-
-}
 .contentproject{
     background: url(./img/F7OBvI.jpg)no-repeat; 
     height: 100vh;
@@ -60,8 +42,8 @@
 	color: #ff3b3c;
  }
  .worksTransition-appear{
-	opacity: 0;
-	transform: translateX(-100px);
+	opacity: 0.6;
+	transform: translateX(-200px);
   }
   
   .worksTransition-appear.worksTransition-appear-active{

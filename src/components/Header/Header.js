@@ -10,10 +10,9 @@ function Header(props) {
         <div className="header-bottom">  
           <p>Конструктор Новгодних открыток</p>
         </div>     
-          <Link className="btn" to="/card">НАЧАТЬ</Link>
-          
+          <Link className="btn" to="/card">НАЧАТЬ</Link>          
         </div>
-      <div class="snowContainer"><div id="snow"></div></div> 
+      <div className="snowContainer"><div id="snow"></div></div> 
    </div>
    
   );

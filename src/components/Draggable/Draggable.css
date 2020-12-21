@@ -1,0 +1,12 @@
+.handlebox{
+  display: flex;
+}
+/* .handle, .handle2, .handle3, .handle4{
+    width: 180px;
+    height: 180px;
+} */
+.handle img, .handle2 img, .handle3 img, .handle4 img{
+    width: 70px;
+    height: 70px;
+    cursor:pointer;
+}
