@@ -21,6 +21,66 @@ height: 100%;
     border:dashed 5px #0d29d7; 
     box-shadow: 4px 4px 10px rgb(0 0 0 / 53%);
 }
+.one{
+    background: url(../Bg/378.jpg)no-repeat;
+    height: 550px;
+    background-size: cover;
+    max-height: 500px;
+    width: 55%;
+    left: 40%;
+    top: 25%;
+    position: relative;
+    z-index: 1;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transition: 1s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    border: dashed 5px #ffffff;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 53%);
+}
+.two{
+    background: url(../Bg/16844.jpg)no-repeat;
+    height: 550px;
+    background-size: cover;
+    max-height: 500px;
+    width: 55%;
+    left: 40%;
+    top: 25%;
+    position: relative;
+    z-index: 1;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transition: 1s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    border: dashed 5px #ffffff;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 53%);
+}
+.three{
+    background: url(../Bg/3670.jpg)no-repeat;
+    height: 550px;
+    background-size: cover;
+    max-height: 500px;
+    width: 55%;
+    left: 40%;
+    top: 25%;
+    position: relative;
+    z-index: 1;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transition: 1s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    border: dashed 5px #ffffff;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 53%);
+}
 .right_block{
     position: relative;
     z-index: 1;

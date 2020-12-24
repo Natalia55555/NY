@@ -10,7 +10,7 @@
     font-size: 18px;
     color: #3caa3c;
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    background-color:#ffffff9c;
+    background-color: #ffffffde;
     max-height: 320px;
     overflow: hidden;
 }
@@ -21,6 +21,7 @@ textarea {
     border-radius: 15px;
     border: 0;   
     height: 100px;
+    border: 1px solid#42a4eb;;
   }
   .btn-input{   
       margin-top: 20px;

@@ -1,8 +1,44 @@
 .bg_btn{
     width: 100px;
     height: 100px;
-    background: url(16844.jpg);
-    background-size: cover;
+       border-radius: 10px;
     border: 2px solid #fff;
     cursor: pointer;
+    margin-right: 20px;
+    outline: none;
 }
+.bg_btn1{   
+    background: url(378.jpg);
+    background-size: cover;  
+}
+.bg_btn2{   
+    background: url(16844.jpg); 
+    background-size: cover; 
+}
+.bg_btn3{  
+    background: url(3670.jpg);  
+    background-size: cover;
+}
+.change-class{
+    background: #fff;
+    position: relative;
+    bottom: 42px;
+    margin-bottom: -42px;
+    
+}
+.change-class:before{
+content: 'отменить';
+font-size: 14px;
+color: red;
+text-transform: uppercase;
+}
+/* .bg_btn1:hover{
+ width: 200px;
+height: 100px;  
+position: absolute;
+z-index: 2; 
+} */
+/* .change-class:hover{
+    width: 100px!important;
+   height: 100px!important;   
+   } */
