@@ -24,7 +24,7 @@ class Dragg extends Component {
           position={null}
           onStart={this.handleStart}
           onDrag={this.handleDrag}
-          onStop={this.handleStop}>          
+         >          
             <div className="handle"><img src={Spruce1}  alt={"Spruce1"}/></div>             
         </Draggable>
         <Draggable          

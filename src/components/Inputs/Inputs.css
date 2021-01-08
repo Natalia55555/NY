@@ -25,6 +25,7 @@ textarea {
   }
   .btn-input{   
       margin-top: 20px;
+      margin-bottom: 20px;
 	color: #fff;
 	border-radius: 20px;
 	padding: 10px 30px 10px 30px;	
@@ -35,4 +36,14 @@ textarea {
 	cursor: pointer;
     font-family:  'Comfortaa', sans-serif;
     background-color:#ff3b3c;
+  }
+  #capture{
+      color: red;
+  }
+  .output_btn{
+    position: absolute;
+    right:15%;
+    /* left: 0;   */
+   top: 20%;
+   z-index: 99999999;
   }

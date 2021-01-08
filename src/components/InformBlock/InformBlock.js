@@ -1,10 +1,11 @@
 import './InformBlock.css';
 import Inputs from '../Inputs/Inputs';
 import Draggable from '../Draggable/Draggable';
-
+// import Exporter from '../Output/Output';
 import React, { Component } from 'react';
 import '../Bg/Bg.css';
 import classnames from 'classnames';
+
 
 // function InformBlock(){
   class  InformBlock extends Component{
@@ -51,18 +52,26 @@ import classnames from 'classnames';
        
           return (       
             <div className='main_block'>
-            <div className={ active }  >
-              <div className='left_block_text'>             
-              </div>
-            </div>
+            <div className={ active } id={`capture`}  >         
+              <div className='left_block_text'>                   
+              </div>              
+            </div>                 
             <div className='right_block'>
-              <p>1. Выберете фон</p>
-               <button  onClick={this.onClick} className={classnames('bg_btn1 bg_btn',  { 'change-class': show })} ></button>
-               <button  onClick={this.onClick2} className={classnames('bg_btn2 bg_btn',  { 'change-class': show2 })} ></button> 
-               <button  onClick={this.onClick3} className={classnames('bg_btn3 bg_btn',  { 'change-class': show3 })} ></button>              
+              <div className='right_block_btn'>
+                <p>1. Выберете фон</p>
+                <button  onClick={this.onClick} className={classnames('bg_btn1 bg_btn',  { 'change-class': show })} ><div className='bottom_text'> 
+                отменить            
+                </div></button>
+                <button  onClick={this.onClick2} className={classnames('bg_btn2 bg_btn',  { 'change-class': show2 })} ><div className='bottom_text'> 
+                отменить            
+                </div></button> 
+                <button  onClick={this.onClick3} className={classnames('bg_btn3 bg_btn',  { 'change-class': show3 })} ><div className='bottom_text'> 
+                отменить            
+                </div></button> 
+              </div>             
               <p>2. Перетащите стикеры на открытку</p>  
               <Draggable />
-              <p>3. Добавьте текст</p>  
+              <p className="red">3. Добавьте текст</p>  
               <Inputs/>    
             </div>
           </div> 

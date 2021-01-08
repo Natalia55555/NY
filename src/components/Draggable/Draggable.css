@@ -6,7 +6,10 @@
     height: 180px;
 } */
 .handle img, .handle2 img, .handle3 img, .handle4 img{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     cursor:pointer;
+}
+.react-draggable img, .cursor {
+  cursor: move;
 }

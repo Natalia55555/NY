@@ -1,6 +1,6 @@
 .main_block{
-width: 100%;
-height: 100%;  
+    width: 100%;
+    height: 100%;  
 }
 .left_block{
     background-color: #fff8ea;
@@ -95,9 +95,13 @@ height: 100%;
     
 }
 .right_block p{
-    color: white;
-    font-size: 22px;
+    color:#fff;
+    font-size: 20px;
     font-weight: 700; 
+}
+.red{
+    color:#ff3b3c!important;
+   
 }
 @keyframes show {
     from {
